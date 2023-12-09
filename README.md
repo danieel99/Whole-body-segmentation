@@ -41,6 +41,8 @@ AutoPET Challenge Dataset: Employed for training and testing the deep learning m
 First step involves initial segmentation on lower-resolution images.
 Second step uses initial predictions to inform and refine segmentation.
 
+![Bounding boxes](/images/boundingboxes.png)
+
 # Key Findings
 The nnU-Net model demonstrated exceptional performance in both scenarios: using the entire dataset and when only images with tumors were considered.
 Excluding non-cancer cases from the training set significantly improves model performance across most architectures tested.
