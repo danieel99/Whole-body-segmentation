@@ -3,6 +3,8 @@
 # Project Overview
 This project explores the application of deep learning in the automated analysis of cancerous lesions from whole-body PET/CT images. Aiming to enhance the accuracy and efficiency of cancer diagnosis, the project presents a comparative study of different neural network architectures for automatic segmentation of cancer lesions. This work is a significant step forward in medical imaging and diagnosis, leveraging the power of artificial intelligence to improve patient outcomes.
 
+![3 channels](/images/3channels.png)
+
 # Key Features
 - Neural Network Architectures: Utilizes multiple configurations of U-Net, nnU-Net, and UNETR models, which are leading tools for medical image processing.
 - Two-Step Segmentation Approach: Incorporates a two-step segmentation process to improve segmentation precision, including a strategy that refines segmentation using lower-resolution image predictions.
